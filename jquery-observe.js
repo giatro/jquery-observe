@@ -1,3 +1,7 @@
+if(typeof require === 'function') {
+	var jQuery = require('jquery');
+}
+
 (function($) {
 	$.Observe = {};
 }(jQuery));
@@ -602,3 +606,7 @@
 		});
 	};
 }(jQuery, jQuery.Observe));
+
+if(typeof module === 'object') {
+	module.exports = jQuery;
+}

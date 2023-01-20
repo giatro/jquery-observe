@@ -1,6 +1,6 @@
 {
-  "name": "@kapetan/jquery-observe",
-  "version": "3.0.0",
+  "name": "@giatro/jquery-observe",
+  "version": "3.0.1",
   "description": "Observe DOM mutations with jQuery",
   "main": "jquery-observe.js",
   "dependencies": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kapetan/jquery-observe.git"
+    "url": "git+https://github.com/giatro/jquery-observe.git"
   },
   "keywords": [
     "observe",
@@ -17,10 +17,10 @@
     "dom",
     "compatibility"
   ],
-  "author": "Mirza Kapetanovic",
+  "author": "Gianluca Troiani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kapetan/jquery-observe/issues"
+    "url": "https://github.com/giatro/jquery-observe/issues"
   },
-  "homepage": "https://github.com/kapetan/jquery-observe#readme"
+  "homepage": "https://github.com/giatro/jquery-observe#readme"
 }

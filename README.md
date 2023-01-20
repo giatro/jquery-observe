@@ -2,13 +2,9 @@
 
 A jQuery plugin which simplifies the use of the new [DOM Mutation Observer][w3_mo] interface introduced in newer browsers. `jquery-observe.js` contains the compiled and minified version of the plugin.
 
-Available through `bower`
+Available through `npm`
 
-	bower install jquery-observe
-
-And `npm`
-
-	npm install @kapetan/jquery-observer
+	npm install @giatro/jquery-observe
 
 # Compatibility
 
@@ -22,6 +18,7 @@ For instance an event is fired for every descendant of an inserted node, where o
 The observe interface `$.fn.observe()` is somewhat similar to the jQuery event api using the `$.fn.on()` method.
 
 ```javascript
+const $ = require('@giatro/jquery-observe');
 $('#content')
 	.observe('attributes', function(record) {
 		// Observe attribute changes on #content
